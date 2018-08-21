@@ -8,27 +8,6 @@ body, html {
   background-color: #666;
 }
 
-.column {
-    align: center;
-    width: 33%;
-
-}
-
-.small {
-  width: 33%;
-  margin: 10px;
-}
-
-.med {
-  width: 66%;
-  margin: 10px;
-}
-
-.large {
-  width: 100%;
-  margin: 10px;
-}
-
 .container, h1 {
   width: 90%;
   /*max-width: 600px;
@@ -71,5 +50,24 @@ img:hover {
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.column {
+  width: 30%;
+  display: inline-block;
+}
 
 /* create your tile classes! we recommend .small .med .large */
+
+.small {
+  width: 100%;
+  height: 100%;
+}
+
+.med {
+  width: 201.5%;
+  height: 201.5%;
+}
+
+.large {
+  width: 303%;
+  height: 303%;
+}

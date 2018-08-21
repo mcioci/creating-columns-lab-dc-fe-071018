@@ -9,7 +9,7 @@ body, html {
 }
 
 .container, h1 {
-  width: 90%;
+  width: 80%;
   max-width: 600px;
   min-width: 400px;
   padding: 10px;
@@ -67,5 +67,5 @@ img:hover {
 
 .large {
   width: 99%;
-  height: 9%;
+  height: 99%;
 }

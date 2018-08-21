@@ -8,19 +8,43 @@ body, html {
   background-color: #666;
 }
 
+.column {
+    align: center;
+    width: 33%;
+
+}
+
+.small {
+  width: 33%;
+  margin: 10px;
+}
+
+.med {
+  width: 66%;
+  margin: 10px;
+}
+
+.large {
+  width: 100%;
+  margin: 10px;
+}
+
 .container, h1 {
-  width: 80%;
-  max-width: 600px;
-  min-width: 400px;
+  width: 90%;
+  /*max-width: 600px;
+  min-width: 400px;*/
   padding: 10px;
   margin: 10px auto;
+  column-count: 3;
+  text-align: center;
 }
 
 h4 {
   width: fit-content;
-  display: inline-block;
+  display: inline-block;;
   padding: 5px;
   margin: 20px 0 0 0;
+  align: center;
 }
 
 img:hover {
